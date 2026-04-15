@@ -1,7 +1,7 @@
 class Password {
   String _password;
 
-  Password([String password = '']) : _password = password;
+  Password({String password = ''}) : _password = password;
 
   String get password => _password;
 
