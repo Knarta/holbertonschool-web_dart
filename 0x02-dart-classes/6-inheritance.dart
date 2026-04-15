@@ -31,12 +31,12 @@ class User extends Password {
       'name': name,
       'age': age,
       'height': height,
-      'user_password': user_password,
     };
   }
 
   @override
   String toString() {
+    password = user_password;
     return 'User(id : $id ,name: $name, age: $age, height: $height, Password: ${isValid()})';
   }
 }
